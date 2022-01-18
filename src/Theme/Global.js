@@ -12,6 +12,9 @@ export default createGlobalStyle`
     .inputSearch{
         background-color: ${(props) => props.theme.color.input};
     }
+    input::placeholder{
+        color: ${(props) => props.theme.color.text};
+    }
     .container{
         background-color: ${(props) => props.theme.color.container};
         box-shadow: ${(props) => props.theme.color.boxShadow};

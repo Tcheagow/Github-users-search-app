@@ -1,6 +1,6 @@
 import React from 'react';
-import SunWhite from './SunWhite'; 
-import SunDark from './SunDark';
+import MoonDark from './MoonDark'; 
+import SunLight from './SunLight';
 
 export default function light(props){
     return(
@@ -8,7 +8,7 @@ export default function light(props){
             onClick={()=>props.setWhite(!props.white)}
         >
             <h2 className='titleLight'>{props.white?<>DARK</>:<>LIGHT</>}</h2>
-            <>{props.white?<SunDark/>:<SunWhite/>}</>
+            <>{props.white?<MoonDark/>:<SunLight/>}</>
         </div>
     )
 }

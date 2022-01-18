@@ -11,7 +11,7 @@ export const darkTheme = {
 export const lightTheme = {
     color: {
         background: '#f0f8ff',
-        text: '#191919',
+        text: 'black',
         search: '#f8f8ff',
         input: '#f8f8ff;',
         container: '#f8f8ff',

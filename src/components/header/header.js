@@ -1,6 +1,6 @@
 import React from 'react';
 import Light from './light'; 
-import Title from './title'
+import Title from './title';
 
 export default function header() {
     return(

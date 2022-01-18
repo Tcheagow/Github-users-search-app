@@ -1,12 +1,12 @@
 import React from 'react';
-import Light from './light'; 
-import Title from './title';
+import Light from './Light'; 
+import Title from './Title';
 
-export default function header() {
+export default function header(props) {
     return(
         <div className='header'>
             <Title/>
-            <Light/>
+            <Light white={props.white} setWhite={props.setWhite}/>
         </div>
     )
 }

@@ -7,7 +7,7 @@ export default function light(props){
         <div className='light'
             onClick={()=>props.setWhite(!props.white)}
         >
-            <h2 className='titleLight'>{props.white?<>LIGHT</>:<>DARK</>}</h2>
+            <h2 className='titleLight'>{props.white?<>DARK</>:<>LIGHT</>}</h2>
             <>{props.white?<SunDark/>:<SunWhite/>}</>
         </div>
     )

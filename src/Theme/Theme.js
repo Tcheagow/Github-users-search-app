@@ -15,6 +15,6 @@ export const lightTheme = {
         search: '#f8f8ff',
         input: '#f8f8ff;',
         container: '#f8f8ff',
-        boxShadow: '20px 20px 20px #dcdcdc'
+        boxShadow: '-1px 20px 20px 20px #dcdcdc'
     }
 }

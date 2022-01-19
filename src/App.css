@@ -62,8 +62,6 @@
   width: 70%;
   
   margin-left: 20px;
-
-  border-radius: 10px;
 }
 .inputSearch:focus{
   box-shadow: 0 0 0 0;
@@ -86,4 +84,39 @@
   width: 100%;
 
   border-radius: 10px;
+}
+@media (max-width: 800px) {
+  .main{
+    width: 80vh;
+    height: 80vh;
+  }
+  .inputSearch{
+    width: 65%;
+  }
+}
+@media (max-width: 600px) {
+  .main{
+    width: 50vh;
+    height: 90vh;
+
+  }
+  .searchIcon{
+    width: 25px;
+    height: 40px;
+  
+    margin-left: 15px;
+
+    transform: translateY(-3%);
+  }
+  .inputSearch{
+    width: 55%;
+
+    margin-left: 10px;
+  }
+  .buttonSearch{
+    width: 80px;
+  }
+  .container{
+    height: 60vh;
+  }
 }

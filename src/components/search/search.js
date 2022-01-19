@@ -1,22 +1,21 @@
-import React, { useState } from 'react';
+import React from 'react';
 import SearchIcon from './SearchIcon';
 
-export default function Search(){
+export default function Search(props){
     function nickNamer(e){
-        //querySelectorById("#input").value = "";
         e.preventDefault();
-        console.log(nick);
-        setNick("");
-    }
 
-    const [nick, setNick] = useState("");
+        if(props.nick !== ""){
+            props.setClick(true);    
+        }
+    }
 
     return(
         <div className='search'>
             <form className='search' onSubmit={nickNamer}>
                 <SearchIcon/>
-                <input className='inputSearch' value={nick} type="text" placeholder='Search GitHub Username'
-                    onChange={(e)=> setNick(e.target.value)}
+                <input className='inputSearch' value={props.nick} type="text" placeholder='Search GitHub Username'
+                    onChange={(e)=> props.setNick(e.target.value)}
                 />
                 <input className='buttonSearch' type='submit' value='Search'></input>
             </form>

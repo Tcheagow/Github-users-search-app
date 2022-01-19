@@ -15,7 +15,11 @@ export default createGlobalStyle`
     input::placeholder{
         color: ${(props) => props.theme.color.text};
     }
-    .container{
+    .containerSearch{
+        background-color: ${(props) => props.theme.color.container};
+        box-shadow: ${(props) => props.theme.color.boxShadow};
+    }
+    .containerNoSearch{
         background-color: ${(props) => props.theme.color.container};
         box-shadow: ${(props) => props.theme.color.boxShadow};
     }

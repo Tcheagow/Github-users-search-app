@@ -1,9 +1,9 @@
 import React from 'react';
 import SubContainerOne from './requestComponents/SubContainerOne';
+import SubContainerTwo from './requestComponents/SubContainerTwo';
 
 export default function Container(props){
-  /*  const resposPublic = props.repositories.public_repos;
-    const location = props.repositories.location;
+  /* const location = props.repositories.location;
     const followers = props.repositories.followers;
     const following = props.repositories.following;
     const company = props.repositories.company;
@@ -14,6 +14,7 @@ export default function Container(props){
         <div className='containerSearch'>
             <>
                 <SubContainerOne repositories={props.repositories}/>
+                <SubContainerTwo repositories={props.repositories}/>
             </>
         </div>
     );

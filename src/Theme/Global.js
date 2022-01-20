@@ -23,4 +23,7 @@ export default createGlobalStyle`
         background-color: ${(props) => props.theme.color.container};
         box-shadow: ${(props) => props.theme.color.boxShadow};
     }
+    .reposAndFollows{
+        background-color: ${(props) => props.theme.color.repos};
+    }
 `;

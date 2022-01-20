@@ -1,3 +1,10 @@
+body{
+  margin: 0;
+}
+a{
+  text-decoration: none;
+  color: rgb(24, 24, 199);
+}
 .background{
   height: 100vh;
 
@@ -89,6 +96,9 @@
   border-radius: 10px;
 }
 .containerSearch{
+  display: flex;
+  flex-direction: row;
+
   margin-top: 20px;
 
   height: 70vh;
@@ -96,18 +106,51 @@
 
   border-radius: 10px;
 }
-.avatar{
-  margin-left: 20px;
-  margin-top: 20px;
+.subContainerOne{
+  display: flex;
+  flex-direction: column;
 
-  width: 120px;
-  height: 45vh;
+  justify-content: space-around;
+
+  height: 130px;
+  width: 100%;
+
+  margin-top: 20px;
 }
-.avatarUrl{
+.avatar{
   width: 100px;
   height: 100px;
 
   border-radius: 50px;
+}
+.nameLoginAndAvatar{
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-evenly;
+
+  width: 100%;
+  height: min-content;
+
+  margin-left: 10px;
+}
+.nameLogin{
+  transform: translate(-10px, -15px);
+
+}
+.nameLogin h1{
+  height: 0;
+}
+.loginMargin{
+  height: 0;
+  margin-top: 40px;
+}
+.span{
+  height: 0;
+  color: gray;
+}
+.bioMargin{
+  padding-top: 20px;
 }
 @media (max-width: 800px) {
   .main{

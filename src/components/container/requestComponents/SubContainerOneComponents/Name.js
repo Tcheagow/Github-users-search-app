@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Name(props){
-    const namee = () => {
+    const name = () => {
         if(props.repositories.name == null){
             return <h1>Not Available</h1>
         }else if(props.repositories.name.length < 20){
@@ -12,5 +12,5 @@ export default function Name(props){
         }
     }
 
-    return <>{namee()}</>;
+    return <>{name()}</>;
 }

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Joined(props){
-    const joinedd = () => {
+    const joined = () => {
         if(props.repositories.created_at == null){
             return <p className="span">Not Available</p>
         }else{
@@ -13,5 +13,5 @@ export default function Joined(props){
         }
     }
 
-    return <>{joinedd()}</>;
+    return <>{joined()}</>;
 }

@@ -152,7 +152,6 @@ a{
 }
 .span{
   height: 0;
-  color: gray;
 
   transform: translateY(-5px);
 }
@@ -167,7 +166,6 @@ a{
 }
 .bioSpan{
   height: 0;
-  color: gray;
 }
 .subContainerTwo{
   display: flex;

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Login(props){
-    const loginn = () => {
+    const login = () => {
         if(props.repositories.login == null){
             return <a href={props.repositories.html_url} target="_blank"><p className="loginMargin">Not Available</p></a>;
         }else{
@@ -9,6 +9,5 @@ export default function Login(props){
         }
     }
 
-    return <>{loginn()}</>;
-    
+    return <>{login()}</>;   
 }

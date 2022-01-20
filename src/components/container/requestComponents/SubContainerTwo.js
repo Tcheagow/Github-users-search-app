@@ -11,6 +11,9 @@ export default function SubContainerOne(props){
                 <Followers repositories={props.repositories}/>
                 <Following repositories={props.repositories}/>
             </div>
+            <div className="icons">
+
+            </div>
         </div>
     );
 }

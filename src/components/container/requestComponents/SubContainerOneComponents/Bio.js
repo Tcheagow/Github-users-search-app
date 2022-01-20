@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function Bio(props){
-    const bioo = () => {
+    const bio = () => {
         if(props.repositories.bio == null){
             return <p className="bioSpan">This profile has no bio</p>
         }else if(props.repositories.bio.length < 45){
@@ -11,6 +11,5 @@ export default function Bio(props){
         }
     }
 
-    return <>{bioo()}</>;
-    
+    return <>{bio()}</>; 
 }

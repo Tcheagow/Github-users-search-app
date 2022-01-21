@@ -11,6 +11,7 @@ export default createGlobalStyle`
     }
     .inputSearch{
         background-color: ${(props) => props.theme.color.input};
+        color: ${(props) => props.theme.color.text};
     }
     input::placeholder{
         color: ${(props) => props.theme.color.text};
@@ -22,6 +23,9 @@ export default createGlobalStyle`
     .containerNoSearch{
         background-color: ${(props) => props.theme.color.container};
         box-shadow: ${(props) => props.theme.color.boxShadow};
+    }
+    a{
+        color: ${(props) => props.theme.color.link};
     }
     .reposAndFollows{
         background-color: ${(props) => props.theme.color.repos};

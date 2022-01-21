@@ -335,7 +335,13 @@ a{
   }
 }
 @media (max-width: 600px) {
+  .background{
+    height: 120vh;
+  }
   .main{
+    height: 110vh;
+  }
+  .containerSearch{
     height: 90vh;
   }
   .searchIcon{

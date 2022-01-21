@@ -1,7 +1,7 @@
 # Github users search 
 
 <h1 align="center">
-    <img src="./ReadmeGif/operation.gif" alt="Gif Operation"/>
+    <img src="./ReadmeGif/Operation.gif" alt="Gif Operation"/>
 </h1>
 
 <br>

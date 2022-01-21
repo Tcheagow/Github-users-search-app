@@ -10,7 +10,7 @@ export default function Container(props){
         }else if(props.repositories.message === "Not Found"){
             return <ContainerError/>;
         }else{
-            return <ContainerNoSearch/>;
+            return <ContainerNoSearch white={props.white}/>;
         }
     }
     return(

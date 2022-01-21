@@ -38,7 +38,7 @@ function App() {
         <div className='main'>
           <Header white={white} setWhite={setWhite}/>
           <Search nick={nick} setNick={setNick} setClick={setClick}/>
-          <Container repositories={repositories}/>
+          <Container repositories={repositories} white={white}/>
         </div>
       </div>
       <GlobalStyle/>

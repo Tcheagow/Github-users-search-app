@@ -103,7 +103,10 @@ a{
 }
 .containerNoSearch{
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
 
   margin-top: 20px;
 
@@ -111,6 +114,13 @@ a{
   width: 100%;
 
   border-radius: 10px;
+}
+.gifSearch{
+  width: calc(50vw - 40px);
+
+  border-radius: 10px;
+
+  margin-top: 60px;
 }
 .containerError{
   display: flex;
@@ -226,7 +236,7 @@ a{
   height: 5px;
 }
 .followsAndReposFormate p{
-  font-weight: 900;
+  font-weight: bolder;
   font-size: 20px;
   
   height: 15px;
@@ -272,6 +282,11 @@ a{
   }
   .searchForm{
     width: calc(70vw - 40px);
+  }
+  .gifSearch{
+    width: calc(70vw - 40px);
+
+    margin-top: 90px;
   }
   .iconX{
     height: 200px;
@@ -335,6 +350,9 @@ a{
   }
   .buttonSearch{
     width: 80px;
+  }
+  .gifSearch{
+    margin-top: 120px;
   }
   .iconX{
     height: 150px;

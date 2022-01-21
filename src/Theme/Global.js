@@ -24,13 +24,17 @@ export default createGlobalStyle`
         background-color: ${(props) => props.theme.color.container};
         box-shadow: ${(props) => props.theme.color.boxShadow};
     }
+    .containerError{
+        background-color: ${(props) => props.theme.color.container};
+        box-shadow: ${(props) => props.theme.color.boxShadow};
+    }
     a{
         color: ${(props) => props.theme.color.link};
     }
     .reposAndFollows{
         background-color: ${(props) => props.theme.color.repos};
     }
-    .iconTesting{
+    .iconColor{
         fill: ${(props) => props.theme.color.icon};
     }
 `;

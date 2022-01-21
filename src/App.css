@@ -60,6 +60,19 @@ a{
 
   border-radius: 10px;
 }
+.searchForm{
+  display: flex;
+  flex-direction: row;
+
+  align-items: center;
+
+  height: 70px;
+  width: calc(50vw - 40px);
+
+  margin-left: 20px;
+
+  border-radius: 10px;
+}
 .searchIcon{
   width: 30px;
   height: 50px;
@@ -98,6 +111,23 @@ a{
   width: 100%;
 
   border-radius: 10px;
+}
+.containerError{
+  display: flex;
+  flex-direction: column;
+
+  justify-content: flex-start;
+  align-items: center;
+
+  margin-top: 20px;
+
+  height: 70vh;
+  width: 100%;
+
+  border-radius: 10px;
+}
+.containerError h1{
+  margin-bottom: 60px;
 }
 .containerSearch{
   display: flex;
@@ -240,6 +270,15 @@ a{
   .main{
     width: 70vw;
   }
+  .searchForm{
+    width: calc(70vw - 40px);
+  }
+  .iconX{
+    height: 200px;
+    width: 200px;
+
+    margin-top: 60px;
+  }
   .nameLoginAndJoined{
     flex-direction: column;
 
@@ -297,6 +336,10 @@ a{
   .buttonSearch{
     width: 80px;
   }
+  .iconX{
+    height: 150px;
+    width: 150px;
+  }
   .fontName{
     font-size: 30px;
   }
@@ -324,6 +367,13 @@ a{
   }
   p{
     font-size: 15px;
+  }
+  .containerError h1{
+    font-size: 30px;
+  }
+  .iconX{
+    height: 120px;
+    width: 120px;
   }
   .nameLoginAndJoined{
     margin-left: 20px;

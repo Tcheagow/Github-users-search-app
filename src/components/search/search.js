@@ -12,7 +12,7 @@ export default function Search(props){
 
     return(
         <div className='search'>
-            <form className='search' onSubmit={nickNamer}>
+            <form className='searchForm' onSubmit={nickNamer}>
                 <SearchIcon/>
                 <input className='inputSearch' value={props.nick} type="text" placeholder='Search GitHub Username'
                     onChange={(e)=> props.setNick(e.target.value)}

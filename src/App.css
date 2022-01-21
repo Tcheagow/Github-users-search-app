@@ -275,7 +275,6 @@ a{
 }
 @media (max-width: 600px) {
   .main{
-    width: 50vw;
     height: 90vh;
   }
   .searchIcon{
@@ -294,12 +293,46 @@ a{
   .buttonSearch{
     width: 80px;
   }
-  .container{
-    height: 60vh;
+  .fontName{
+    font-size: 30px;
+  }
+  .bio{
+    margin-top: 125px;
+  }
+  .reposAndFollows{
+    margin-top: 30px;
+  }
+  .subDivIcons{
+    flex-direction: column;
+  }
+  .lengthCompanyAndTwitter{
+    width: calc(70vw - 40px);
+
+    padding-top: 10px;
+  }
+  .lengthBlogAndLocation{
+    width: calc(70vw - 40px);
+  }
+}
+@media (max-width: 450px) {
+  a{
+    font-size: 15px;
+  }
+  p{
+    font-size: 15px;
   }
   .nameLoginAndJoined{
-    flex-direction: column;
+    margin-left: 20px;
+  }
+  .nameLogin h1{
+    font-size: 20px;
 
-    justify-content: flex-start;
-    }
+    margin-top: 30px;
+  }
+  .bio{
+    margin-top: 140px;
+  }
+  .reposAndFollows{
+    margin-top: 80px;
+  }
 }

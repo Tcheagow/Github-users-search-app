@@ -199,6 +199,41 @@ a{
   
   height: 15px;
 }
+.divIcons{
+  display: flex;
+  flex-direction: column;
+  
+  align-self: flex-end;
+
+  width: calc(50vw - 180px);
+
+  margin-right: 20px;
+  margin-top: 20px;
+}
+.subDivIcons{
+  display: flex;
+
+  justify-content: space-between;
+
+  width: auto;
+}
+.iconAndP{
+  display: flex;
+  flex-direction: row;
+}
+.iconAndP p{
+  height: 0;
+}
+.translateIcon{
+  transform: translateY(85%);
+  margin-right: 15px;
+}
+.lengthCompanyAndTwitter{
+  width: calc( ((50vw - 180px) / 2) - 20px);
+}
+.lengthBlogAndLocation{
+  width: calc( ((50vw - 180px) / 2) + 20px);
+}
 @media (max-width: 1000px){
   .main{
     width: 70vw;
@@ -220,17 +255,28 @@ a{
     margin-top: 120px;
   }
   .reposAndFollows{
-  width: calc(70vw - 40px);
-  
-  margin-right: 20px;
-  margin-top: 20px;
+    width: calc(70vw - 40px);
+    
+    margin-right: 20px;
+    margin-top: 20px;
+  }
+  .divIcons{
+    width: calc(70vw - 40px);
+  }
+  .subDivIcons{
+    justify-content: flex-start;
+  }
+  .lengthCompanyAndTwitter{
+    width: calc( ((70vw - 40px) / 2) - 20px);
+  }
+  .lengthBlogAndLocation{
+    width: calc( ((70vw - 40px) / 2) + 20px);
   }
 }
 @media (max-width: 600px) {
   .main{
-    width: 50vh;
+    width: 50vw;
     height: 90vh;
-
   }
   .searchIcon{
     width: 25px;

@@ -1,11 +1,21 @@
 import React from "react";
+import BlogSvg from "./Icons/BlogSvg";
+
 
 export default function Blog(props){
     const blog = () => {
-        if(props.repositories.blog == null){
-            return <p className="">Not Available</p>
+        if(props.repositories.blog === ""){
+            return (
+                <div className="iconAndP lengthBlogAndLocation">
+                    <BlogSvg/>
+                    <p>Not Available</p>
+                </div>);
         }else{
-            return <p className="">{props.repositories.blog}</p>;
+            return (
+                <div className="iconAndP lengthBlogAndLocation">
+                    <BlogSvg/>
+                    <p>{props.repositories.blog}</p>
+                </div>);
         }
     }
 

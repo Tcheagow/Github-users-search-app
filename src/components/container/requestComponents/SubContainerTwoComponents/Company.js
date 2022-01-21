@@ -1,11 +1,20 @@
 import React from "react";
+import CompanySvg from "./Icons/CompanySvg";
 
 export default function Company(props){
     const company = () => {
         if(props.repositories.company == null){
-            return <p className="">Not Available</p>
+            return (
+                <div className="iconAndP lengthCompanyAndTwitter">
+                    <CompanySvg/>
+                    <p>Not Available</p>
+                </div>);
         }else{
-            return <p className="">{props.repositories.company}</p>;
+            return (
+                <div className="iconAndP lengthCompanyAndTwitter">
+                    <CompanySvg/>
+                    <p>{props.repositories.company}</p>
+                </div>);
         }
     }
 

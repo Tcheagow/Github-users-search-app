@@ -1,11 +1,20 @@
 import React from "react";
+import TwitterSvg from "./Icons/TwitterSvg";
 
 export default function twitterUsername(props){
     const twitter_username = () => {
         if(props.repositories.twitter_username == null){
-            return <p className="">Not Available</p>
+            return (
+                <div className="iconAndP lengthCompanyAndTwitter">
+                    <TwitterSvg/>
+                    <p>Not Available</p>
+                </div>);
         }else{
-            return <p className="">{props.repositories.twitter_username}</p>;
+            return (
+                <div className="iconAndP lengthCompanyAndTwitter">
+                    <TwitterSvg/>
+                    <p>{props.repositories.twitter_username}</p>
+                </div>);
         }
     }
 

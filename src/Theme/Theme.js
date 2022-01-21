@@ -5,7 +5,8 @@ export const darkTheme = {
         search: '#1c2c4c',
         input: '#1c2c4c;',
         container: '#1c2c4c',
-        repos: '#141c2c'
+        repos: '#141c2c',
+        icon: '#ffffff'
     }
 }
 
@@ -17,6 +18,7 @@ export const lightTheme = {
         input: '#f8f8ff;',
         container: '#f8f8ff',
         boxShadow: '-1px 20px 20px 20px #dcdcdc',
-        repos: '#C1C1C7'
+        repos: '#C1C1C7',
+        icon: '#000000'
     }
 }

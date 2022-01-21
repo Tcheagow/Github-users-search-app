@@ -26,4 +26,7 @@ export default createGlobalStyle`
     .reposAndFollows{
         background-color: ${(props) => props.theme.color.repos};
     }
+    .iconTesting{
+        fill: ${(props) => props.theme.color.icon};
+    }
 `;

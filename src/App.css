@@ -35,6 +35,11 @@ a{
 
   width: 100%;
 }
+.title{
+  height: 10px;
+
+  transform: translateY(7px);
+}
 .light {
   display: flex;
   height: 100px;

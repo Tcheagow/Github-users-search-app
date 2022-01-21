@@ -8,8 +8,10 @@
 
 <h2>About:</h2>
 <br>
-<p>Uma aplicação que permite pesquisar e obter informações dos  usuários da plataforma GitHub. <br> A aplicação faz o uso da API do GitHub, que permite realizar pesquisas dos usuários.</p>
-<p>O aplicativo oferece dois temas: tema escuro e tema claro. O tema inicial é definido nas configurações do usuário, mas o usuário pode alterar o tema sempre que quiser</p>
+<p>An application that allows you to search and obtain information from users of the GitHub platform. <br> The app makes use of the GitHub API, which allows it to perform searches and obtain data from users..</p>
+<p>The app offers two themes: dark theme and light theme. Initial theme is set in user settings, but user can change theme whenever they want</p>
+
+<h1></h1>
 
 <br>
 
@@ -19,4 +21,8 @@
 <li>JavaScript</li>
 <li>React.js</li>
 
-<h2 align="center">⚠️⚠️ Not finished ⚠️⚠️</h2>
+<h1></h1>
+
+<br>
+
+><h2 align="center"> ⚠️⚠️ Not finished ⚠️⚠️</h2>

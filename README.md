@@ -29,4 +29,4 @@
 
 <br>
 
-<a><p align="center" target="_blank">https://github-users-search-7730c.firebaseapp.com</p><a>
+<a target="_blank"><p align="center">https://github-users-search-7730c.firebaseapp.com</p><a>

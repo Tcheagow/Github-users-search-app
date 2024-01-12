@@ -8,7 +8,7 @@
 
 <h2>About:</h2>
 <br>
-<p>An application that allows you to search and obtain information from users of the GitHub platform. <br> The app makes use of the GitHub API, which allows it to perform searches and obtain data from users..</p>
+<p>An application that allows you to search and obtain information from users of the GitHub platform. <br> The app makes use of the GitHub API, which allows it to perform searches and obtain data from users.</p>
 <p>The app offers two themes: dark theme and light theme. Initial theme is set in user settings, but user can change theme whenever they want</p>
 
 <h1></h1>
